@@ -14,7 +14,7 @@ A small summary:
 5. Mount the partitions
 6. Install the base packages into /mnt (pacstrap /mnt base linux linux-firmware git vim intel-ucode (or amd-ucode))
 7. Generate the FSTAB file with genfstab -U /mnt >> /mnt/etc/FSTAB
-8. Chroot in with arch-chroot /mntdeb
+8. Chroot in with arch-chroot /mnt
 9. Download the git repository with git clone https://github.com/ahawer/arch-linux/
 10. cd arch
 11. chmod +x base-uefi.sh
